@@ -118,6 +118,8 @@ public class MainActivity extends Activity {
             File file = new File(Environment.getExternalStorageDirectory().getPath(), "hehe.png");
             FileOutputStream fileOutputStream = new FileOutputStream(file);
 
+            System.out.println("wozaizheli");
+
             copyBitmap.compress(Bitmap.CompressFormat.PNG,100,fileOutputStream);
 
             //发送一条sd卡挂载上来的广播 欺骗一下系统图库应用 说sd卡被挂载了 你去加载图片吧
@@ -133,7 +135,7 @@ public class MainActivity extends Activity {
 
             fileOutputStream.close();
 
-            System.out.println("github太屌了！！！");
+            System.out.println("哈哈哈");
 
         } catch (Exception e) {
             e.printStackTrace();
