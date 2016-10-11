@@ -133,6 +133,8 @@ public class MainActivity extends Activity {
 
             fileOutputStream.close();
 
+            System.out.println("github太屌了！！！");
+
         } catch (Exception e) {
             e.printStackTrace();
         }
