@@ -135,7 +135,7 @@ public class MainActivity extends Activity {
 
             fileOutputStream.close();
 
-            System.out.println("哈哈哈");
+            System.out.println("owesome");
 
         } catch (Exception e) {
             e.printStackTrace();
